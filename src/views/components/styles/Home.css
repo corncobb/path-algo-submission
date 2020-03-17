@@ -1,0 +1,36 @@
+table { border-collapse: collapse }
+td { width: 1em; height: 1em; border: 1px solid }
+ 
+td.obsticle {
+    background-color: red;
+}
+td.isEnd {
+    background-color: green;
+}
+td.isStart {
+    background-color: blue;
+}
+
+td:not(.obsticle):hover {
+    background-color: lightblue;
+}
+
+.user-avatar {
+    background: url('../icons/figure.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+.taken-path {
+    background: url('../icons/close.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: 100% 100%;
+}
+
+.center {
+    margin: auto;
+}
+.text-center {
+    text-align: center;
+}

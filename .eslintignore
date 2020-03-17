@@ -1,0 +1,5 @@
+# Ignores bottom files
+
+serviceWorker.js
+setupTests.js
+App.test.js
